@@ -4,29 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sosilky</title>
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-                
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=IBM+Plex+Sans+Arabic&family=Marhey:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
       <style>
         /* ------------ GOOGLE FONTS ------------ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 
 /* ------------ VARIABLES ------------ */
-:root{
-  /* FONT */
-  --font: 'Poppins', sans-serif;
 
-  /* COLORS */
-  --color: #9176FF;
-  --bg-color: #f4f4f4;
-}
 
 /* ------------ BASE ------------ */
 
 
 body{
-  font-family: var(--font);
+  font-family: 'Cairo', sans-serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Marhey', cursive;
+font-family: 'Roboto', sans-serif;
   
  
 
@@ -115,32 +130,36 @@ body{
   margin-top: .5em;
   cursor: pointer;
 }
+body{
+  font-family: 'Cairo', sans-serif;
+font-family: 'Marhey', cursive;
+}
       </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-white container" dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white" dir="rtl">
         <div class="container-fluid">
-          <a class="navbar-brand col-3" href="#"><img width="100px" src="./images/2-removebg-preview 3.png"/></a>
+          <a class="navbar-brand col-3" href="#"><img width="130px" src="./images/2-removebg-preview 3.png"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#">الصفحة الرئيسية</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">لماذا سو سيلكي <span style="color: #EDC6B5;">؟!</span></a>
+                <a class="nav-link fs-4" href="#">لماذا سو سيلكي <span style="color: #EDC6B5;">؟!</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">احصائيات</a>
+                <a class="nav-link fs-4" href="#">احصائيات</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-disabled="true">بماذا نتميز <span style="color: #EDC6B5;">؟!</span></a>
+              <li class="nav-item ">
+                <a class="nav-link fs-4" aria-disabled="true">بماذا نتميز <span style="color: #EDC6B5;">؟!</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-disabled="true">أراء العملاء</a>
+              <li class="nav-item ">
+                <a class="nav-link fs-4" aria-disabled="true">أراء العملاء</a>
               </li>
             </ul>
           </div>
@@ -150,8 +169,7 @@ body{
 
       <!-- head -->
 
-      
-        <div class="row">
+       
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                  
@@ -171,13 +189,11 @@ body{
                 </div>
                 
               </div>
-        </div>
-
+        
 
         <!-- why sosilky -->
 
-        <div class="container">
-            <div class="row">
+       
                 
                     <!-- Link Swiper's CSS -->
                    
@@ -223,14 +239,442 @@ body{
                      
                     
                     </div>
-                    <div class="d-flex justify-content-center  align-items-center">
-                 <button dir="rtl" class="d-flex justify-content-center align-items-center" style="background-color:#EDC6B5;border: none;border-radius: 30px;">
-                    <img src="./images/Whatsapp.png" alt="" height="30vh">
-                    <p class="d-flex justify-content-center align-items-center" style="font-size: 1.2rem;color: white; font-weight: bold;">اطلب الان</p>
-                 </button>
-                
-                </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <a  href="https://api.whatsapp.com/send?phone=3197010240285"><button dir="rtl" class="d-flex justify-content-center align-items-center" style="background-color:#EDC6B5; border: none; border-radius: 30px; display: flex; align-items: center;width: 200px;">
+                        <i class="fa-brands fa-whatsapp fa-lg mx-3" style="color: #ffffff;"></i>
+                          <p style="font-size: 1.2rem; color: white; font-weight: bold; text-align: center; display: flex; align-items: center; margin: 0;">اطلب الان</p>
+                      </button></a>
+                  </div>
+                  
+                  
+                  
                 </section>
+
+
+                <!-- posts section -->
+                <div class="container mt-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/71fI951qU3L.jpg" class="d-block w-100 " alt="..."  style="height: 600px;">
+                      <div class="carousel-caption d-none d-md-block">
+                       
+                        <p style="font-size: 4rem;font-weight: bold;color: rgb(84, 84, 84)">%حرير طبيعي 100</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/81ceGnbkABL.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p style="font-size: 4rem;font-weight: bold;color:  rgb(84, 84, 84)">نعومه فائقة وعالية الجودة</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/s-l1200.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p style="font-size: 4rem;font-weight: bold;color:  rgb(84, 84, 84)">تحافظ علي الشعر من الهيشان</p>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="d-flex justify-content-center">
+      <p style="font-size: 2rem; font-weight: bold;color: #EDC6B5;">بماذا نتميز !؟<img src="./images/download (2).png" alt="" width="50px"></p>
+    </div>
+<div class="d-flex justify-content-center row">
+  <div class="col-md-4 col-12" >
+    <div class="d-flex justify-content-center">
+      <img src="./images/cash-payment.png" alt="" width="100vw">
+    </div>
+  <p style="color: #EDC6B5; font-size: 1.7rem; text-align: center;">الدفع عند الاستلام</p>
+  
+</div>
+<div class="col-md-4 col-12">
+  <div class="d-flex justify-content-center" >
+    <img src="./images/download (1).png" alt="" width="100vw">
+   </div>
+   <p style="color: #EDC6B5; font-size: 1.7rem; text-align: center;">التوصيل السريع</p>
+  
+</div>
+<div class="col-md-4 col-12"> 
+  <div class="d-flex justify-content-center">
+    <img src="./images/5465858.png" alt="" width="100vw">
+  </div>
+  <p style="color: #EDC6B5; font-size: 1.7rem; text-align: center;">امكانية الاسترجاع والاستبدال</p>
+</div>
+</div>
+
+
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="d-flex justify-content-center align-items-center mb-5">
+     <a href="https://api.whatsapp.com/send?phone=3197010240285"> <button dir="rtl" class="d-flex justify-content-center align-items-center" style="background-color:#EDC6B5; border: none; border-radius: 30px; display: flex; align-items: center;width: 200px;">
+      <i class="fa-brands fa-whatsapp fa-lg mx-3" style="color: #ffffff;"></i>
+          <p style="font-size: 1.2rem; color: white; font-weight: bold; text-align: center; display: flex; align-items: center; margin: 0;">اطلب الان</p>
+      </button></a>
+  </div>
+
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-5 col-12"> 
+      <div class="d-flex flex-column align-items-center">
+        <img src="./images/33308.png" alt="" width="100vw">
+        <p style="font-size: 1.7rem; text-align: center;">عدد العملاء</p>
+      </div>
+      <p style="font-size: 1.7rem; text-align: center;">+100K</p>
+    </div>
+    <div class="col-md-5 col-12"> 
+      <div class="d-flex flex-column align-items-center">
+        <img src="./images/feedback-icon-review-165788304.webp" alt="" width="100vw">
+        <p style="font-size: 1.7rem; text-align: center;">اراء العملاء</p>
+      </div>
+      <p style="font-size: 1.7rem; text-align: center;">+100K</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+<!-- Reviews -->
+
+  <div id="carouselBasicExample" class="carousel  carousel-fade" data-mdb-ride="carousel" style="background-color: #edc6b5a0;">
+    
+
+    <div class="carousel-inner">
+      <p class="mt-5" style="color: rgb(79, 79, 79); font-size: 1.7rem;text-align: center;">اراء عملائنا</p>
+      <div class="carousel-item active d-flex justify-content-center">
+        <div  class="row d-flex justify-content-center " dir="rtl">
+        <div class="col-md-2 col-10">
+       <img src="./images/user.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+
+       
+        <div class=" d-none d-md-block">
+         <p class="text-dark">الشحن سريع جدًا جدا زي ماهو واضح بالصور التغليف رائع يجي الغطاء ملفوف بورق خفيف ومحفوظ بحقيبة من الجوخ أنيقة قماش المخده حرير لامع من الامام وبالخلف قماش ناعم يشبه الحرير بس غير لامع الخياطه مرتبة جدا مع أطراف الكيس ناعم ما يحرش الجلد تجي بحجم المخدات الستاندرد بالسعوديه كله حاولت اوضحه بالصور اشكر البائع على المنتج وسرعة الشحن</p>
+        </div>
+        </div>
+        <div class="col-md-2 col-10">
+          <img src="./images/user2.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+          
+           <div class=" d-none d-md-block">
+            <p class="text-dark">غسلت الكيس باليد ماتغير وحاليًا انام عليه يهبببل يهبل ناااااااعم وعلى قد المخده موب وسيع يبهذل خيال والله انصح فيه</p>
+           </div>
+           </div>
+
+           <div class="col-md-2 col-10">
+            <img src="./images/images (7).jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+            
+             <div class=" d-none d-md-block">
+              <p class="text-dark">أنا أغني وخدمتها وسادتي التي كانت أكبر من رائعة</p>
+             </div>
+             </div>
+
+             <div  class="row d-flex justify-content-center " dir="rtl">
+              <div class="col-md-2 col-10">
+                <img src="./images/user3.webp" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                 <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                
+                 <div class=" d-none d-md-block">
+                  <p class="text-dark">أنام الآن مثل ملكة👸 التعبئة والتغليف هي أبعد من الثناء. أوصي بالبائع والمنتجات. التسليم سريع.</p>
+                 </div>
+                 </div>
+                 <div class="col-md-2 col-10">
+                  <img src="./images/preview16.jpg" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                  
+                   <div class=" d-none d-md-block">
+                    <p class="text-dark">نوعية جيدة جدا ، حرير ٪ بلون جميل ، يأتي في حالة لطيفة جدا.</p>
+                   </div>
+                   </div>
+                   <div class="col-md-2 col-10">
+                    <img src="./images/user4.png" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                     <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    
+                     <div class=" d-none d-md-block">
+                      <p class="text-dark">ثاني مره اطلبها اذا كانت الوسادة قطن كأنك نايمة على غيمة اللون جميل و رايق جدًا .. الكيس و التغليف فتنة.</p>
+                     </div>
+                     </div>
+             </div>
+
+          </div>
+      </div>
+
+      <div class="carousel-item  d-flex justify-content-center">
+        <div  class="row d-flex justify-content-center " dir="rtl">
+        <div class="col-md-2 col-10">
+       <img src="./images/user5.webp" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+
+       
+        <div class=" d-none d-md-block">
+         <p class="text-dark">اكياس المخدة الحرير استخدمتها وكانت رائعه جدا جدا وبارده وناعمه على الوجه وتنفع للمناطق الحاره في الصيف لانها بارده وملمسها حريري ❤️❤️❤️❤️❤️❤️❤️❤️❤️انصح في استخدمها وجدها في منطقتنا ٤٠٠ ريال وهنا في هذا الموقع ١٥٠ مع الضريبه والتوصيل 🇸🇦🇸🇦🇸🇦
+        </p>
+        </div>
+        </div>
+        <div class="col-md-2 col-10">
+          <img src="./images/user6.jpg" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+          
+           <div class=" d-none d-md-block">
+            <p class="text-dark">تجربة النوم من Lואוווואווושידרה. تصل في الفاخرة. هدية ليست رخيصة ولكن مثالية.</p>
+           </div>
+           </div>
+
+           <div class="col-md-2 col-10">
+            <img src="./images/user7.webp" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+            
+             <div class=" d-none d-md-block">
+              <p class="text-dark">إنه مثالي!! التسليم السريع ، تغليف دقيق جدا وأنيقة ، وحالة عالية الجودة</p>
+             </div>
+             </div>
+
+             <div  class="row d-flex justify-content-center " dir="rtl">
+              <div class="col-md-2 col-10">
+                <img src="./images/user8.png" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                 <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                
+                 <div class=" d-none d-md-block">
+                  <p class="text-dark">يا له من شراء رائع! جودة حرير وخياطة لا تشوبها شائبة! بالإضافة إلى كل شيء تم تقديم عبوة جميلة وفرافرو حريري لشعري! شكرًا لك البائع!
+                  </p>
+                 </div>
+                 </div>
+                 <div class="col-md-2 col-10">
+                  <img src="./images/user9.png" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                  
+                   <div class=" d-none d-md-block">
+                    <p class="text-dark">الشحن والتسليم سريع جدا لأنني في أوروبا والمستودع في فرنسا أعتقد. وصلت خلال أسبوع. لا يتعين دفع أي رسوم إضافية. يمكنك رؤية اللون في ضوء النهار على ربطة الشعر بشكل أكثر وضوحًا. على الضوء الداكن ، يبدو غطاء الوسادة باللون الرمادي. يتغير اللون حسب الإضاءة داخل الغرفة. التقطت صوراً للجانب القطني باللون الأزرق الرمادي والحرير باللون الأزرق الرمادي مع حواف الأنابيب. ليس لدي أي فكرة هل هو حرير حقيقي أم لا. يبدو من الجيد النوم عليه لذلك أنا راضٍ. أعتقد أن 25-30 يورو كان بإمكاني شراء الحرير بالمتر وخياطة الوسادة على كلا الجانبين من الحرير ولكن لم أشعر بإضاعة الوقت في شراء القماش والخياطة. كان من المفترض أن يكون على الخصم ولكن أشك في أنني سأشتريه إذا كان 30 + يورو لأن هذا هو سعر وسادة ha ha ha. منتج جيد ، بائع مسؤول ، غرز عالية الجودة. أنا أوصي!</p>
+                   </div>
+                   </div>
+                   <div class="col-md-2 col-10">
+                    <img src="./images/user11.jpg" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                     <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    
+                     <div class=" d-none d-md-block">
+                      <p class="text-dark">مطابقة للوصف وجميلة وجائت بتغليف راقي لكن بدون هدية 😔 شكرا للبائع طبعاً نص حرير والنص الثاني جميل لكن ليس حرير</p>
+                     </div>
+                     </div>
+             </div>
+
+          </div>
+      </div>
+
+      <div class="carousel-item  d-flex justify-content-center">
+        <div  class="row d-flex justify-content-center " dir="rtl">
+        <div class="col-md-2 col-10">
+       <img src="./images/user12.png" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+
+       
+        <div class=" d-none d-md-block">
+         <p class="text-dark">فرحة! من التعبئة والتغليف إلى تنفيذ🥰في البداية يبدو ضخمة ، ولكن قياس حتى قليلا أقل بواسطة CM من المعلنة ، ولكن بلدي العظام وسادة صالح تماما! اللون كما الصورة ، المتربة الأزرق ، أوصي بالتأكيد! وسوف النظام الثاني)
+        </p>
+        </div>
+        </div>
+        <div class="col-md-2 col-10">
+          <img src="./images/user13.webp" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+          
+           <div class=" d-none d-md-block">
+            <p class="text-dark">التغليف يجنن ومرتب طلبت 2 وحده جات معها ربطه والثانيه لا</p>
+           </div>
+           </div>
+
+           <div class="col-md-2 col-10">
+            <img src="./images/user14.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+            
+             <div class=" d-none d-md-block">
+              <p class="text-dark">أرسل البائع المنتج بسرعة ووصل الطلب إلى البرازيل قبل التاريخ المجدول. الجودة جيدة جدا ، منتج مخيط جيدا ، كل ذلك في ثروة من التفاصيل. أنا أيضا أحب لون وسادة وأنا أحب البطاقة التي تم إخباركم كيف أفضل لغسل ورعاية النسيج. لينة جدا للمنتج اللمس ، أوصي.🥰🙌🏻</p>
+             </div>
+             </div>
+
+             <div  class="row d-flex justify-content-center " dir="rtl">
+              <div class="col-md-2 col-10  ">
+                <img src="./images/user15.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                 <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                
+                 <div class=" d-none d-md-block">
+                  <p class="text-dark">غطاء وسادة رائع للغاية ، الجودة فائقة! العبوة رائعة ، كل شيء جميل وجميل!
+                  </p>
+                 </div>
+                 </div>
+                 <div class="col-md-2 col-10">
+                  <img src="./images/user16.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+       <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+        <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                  
+                   <div class=" d-none d-md-block">
+                    <p class="text-dark">منتج جميل. معبأة بشكل جيد جدا ، والقياسات الصحيحة ، مخيط بشكل جيد ، دون رائحة محددة. جاء مع هدية صغيرة. سوف أطلب بالتأكيد مرة أخرى. شكرًا لك.</p>
+                   </div>
+                   </div>
+                   <div class="col-md-2 col-10">
+                    <img src="./images/user17.jfif" alt="" style="border-radius: 50%;width: 70px;height: 70px;" >
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i> 
+                    <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                     <i class="fa-solid fa-star fa-lg" style="color: #712504;"></i>
+                    
+                     <div class=" d-none d-md-block">
+                      <p class="text-dark">غطاء وسادة جميل وناعم للغاية ، لديه شهادة سلامة مادية. اللون الخنصر أكثر من صورتي ، وجانب واحد من الحرير ، وآخر من Lyocell. جودة رائعة حقًا. أوصي به!</p>
+                     </div>
+                     </div>
+
+
+
+             </div>
+
+          </div>
+      </div>
+    
+
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+  <!-- footer -->
+  <footer class="bg-black text-center text-white ">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <a href="mailto:www.gmail.com"> <i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a>
+                <i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-location-dot fa-lg" style="color: #ffffff;"></i>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <p class="pt-2">بفضل التركيز على الجودة والاهتمام بأدق التفاصيل، 
+                  تتمتع SOSILKY بشعبية كبيرة بين محبي الراحة
+                   والفخامة، وتُعتبر خيارًا مثاليًا لمن يتطلعون إلى
+                   تحسين جودة نومهم والاستمتاع بتجربة نوم لا تُنسى.</p>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+             <img src="./images/2.png" alt="" width="300px">
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #000;">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">sosilky.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  </div>
+</div>
+
 
                 <!-- Swiper JS --> 
                   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -267,5 +711,10 @@ body{
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"
   ></script>   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+></script>
 </body>
 </html>
